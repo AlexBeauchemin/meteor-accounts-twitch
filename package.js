@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'accounts-twitch',
+  name: 'alexbeauchemin:accounts-twitch',
   version: '1.0.0',
   summary: 'A login service for Twitch',
   git: 'https://github.com/AlexBeauchemin/meteor-accounts-twitch',
@@ -8,7 +8,6 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1');
-  api.addFiles('accounts-twitch.js');
 
   api.use('accounts-base', ['client', 'server']);
   api.imply('accounts-base');
