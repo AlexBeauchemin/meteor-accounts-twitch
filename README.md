@@ -6,6 +6,7 @@
 `cd <your-meteor-project>`
 
 `meteor add service-configuration`
+
 `meteor add alexbeauchemin:accounts-twitch`
 
 ##Setup and Usage
@@ -18,9 +19,8 @@
   For e.g.redirect url for localhost : `http://localhost:3000/_oauth/twitch?close`
 
 3. After registration, note down the client id and client secret.
-4. Now in your app do create the `accounts.js` and put following code inside
-`<your-app-directory>/server/accounts.js`
-and put your client id and client secret
+4. In your app, create the `accounts.js`, put following code inside
+`<your-app-directory>/server/accounts.js` with your client id and client secret
 
     ```
     ServiceConfiguration.configurations.remove({
