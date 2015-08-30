@@ -1,0 +1,13 @@
+#twitchLoginButton {
+    background: #6441a5 url("/twitch.png") no-repeat;
+    background-position: right 10px center;
+    background-size: auto 80%;
+    border: 0;
+    color: #fff;
+    height: 36px;
+    line-height: 36px;
+    outline: 0;
+    padding: 0 3rem 0 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
