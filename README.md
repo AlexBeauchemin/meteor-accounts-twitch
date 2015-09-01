@@ -30,7 +30,6 @@
       service: "twitch",
       clientId: "<your-client-id>",
       redirectUri: Meteor.absoluteUrl() + '_oauth/twitch?close',
-      scope:'basic',
       secret: "<your-client-secret>"
     });
     ```
