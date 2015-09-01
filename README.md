@@ -44,5 +44,13 @@ or add this code on the click event of your custom button
           if (err) console.log('login failed: ' + err)
       });
 ```
+if you want specific permissions, add the scope as an option
+```
+      var scope = ['user_read', 'user_blocks_read', 'user_subscriptions'];
+
+      Meteor.loginWithTwitch({requestPermissions: scope}, function (err) {
+          if (err) console.log('login failed: ' + err)
+      });
+```
 
 Now you should be able to create and account and login with Twitch
