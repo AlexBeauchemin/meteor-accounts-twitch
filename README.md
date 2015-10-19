@@ -1,7 +1,7 @@
 # Meteor Acccounts Twitch
 ### Twitch account login for meteor
 
-This is a login package using twitch for meteor. It lets users on your website login with their twitch account by adding a single button (provided by the packlage) to your website.
+This is a login package using twitch for meteor. It lets users on your website login with their twitch account by adding a single button (provided by the packlage).
 
 ## Install
 
