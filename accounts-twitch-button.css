@@ -22,7 +22,7 @@
 }
 
 #twitchLoginButton:before {
-	background: #6441a5 url("/twitch.png") no-repeat center;
+	background: #6441a5 url("/packages/alexbeauchemin_accounts-twitch/twitch.png") no-repeat center;
     background-size: auto 70%;
     border-right: 1px solid rgba(0, 0, 0, 0.3);
 	border-radius: 3px;

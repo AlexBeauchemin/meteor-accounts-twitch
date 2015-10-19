@@ -1,6 +1,6 @@
 Package.describe({
   name: 'alexbeauchemin:accounts-twitch',
-  version: '1.0.2',
+  version: '1.0.3',
   summary: 'A login service for Twitch',
   git: 'https://github.com/AlexBeauchemin/meteor-accounts-twitch',
   documentation: 'README.md'
@@ -33,7 +33,10 @@ Package.onUse(function(api) {
     'accounts-twitch-configuration.js',
     'accounts-twitch-button.html',
     'accounts-twitch-button.js',
-    'accounts-twitch-button.css',
+    'accounts-twitch-button.css'
+  ],'client');
+
+  api.addAssets([
     'twitch.png'
   ],'client');
 });
