@@ -1,7 +1,9 @@
 # Meteor Acccounts Twitch
-#### Twitch account login for meteor
+### Twitch account login for meteor
 
-##Install
+This is a login package using twitch for meteor. It lets users on your website login with their twitch account by adding a single button (provided by the packlage) to your website.
+
+## Install
 
 `cd <your-meteor-project>`
 
@@ -9,7 +11,7 @@
 
 `meteor add alexbeauchemin:accounts-twitch`
 
-##Setup and Usage
+## Setup and Usage
 1. Register your app with Twitch Developer Site at following url- http://www.twitch.tv/kraken/oauth2/clients/new
 
 2. Fill out the given form but make sure that redirect url as shown as follows-
