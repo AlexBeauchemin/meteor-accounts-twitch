@@ -1,6 +1,6 @@
 Package.describe({
   name: 'alexbeauchemin:accounts-twitch',
-  version: '1.0.1',
+  version: '1.0.2',
   summary: 'A login service for Twitch',
   git: 'https://github.com/AlexBeauchemin/meteor-accounts-twitch',
   documentation: 'README.md'
